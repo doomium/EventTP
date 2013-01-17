@@ -1,0 +1,14 @@
+    name: EventTP
+    main: com.yahoo.doomium.eventtp.EventTP
+    version: 1.0
+    description:
+    author: doomium@yahoo.com
+    commands:
+        eventopen:
+            description: Opens a server event.
+        eventclose:
+            description: Closes a server event.
+        eventjoin:
+            description: Joins a server event.
+        eventstatus:
+            description: Resends the server event message if there is an active one.
